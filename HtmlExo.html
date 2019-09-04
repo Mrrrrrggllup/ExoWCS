@@ -3,37 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>FindThePrecious.com</title>
-    <meta name="author" content="MrGlup">
-    <meta name="description" content="Un exercice de HTML basique.">
   </head>
   <body>
    <nav>
       <ul>
-        <li><a href="#"><h1>FindThePrecious.com</h1></a></li>
-        <li><a href="#">Fellows</a></li>
+        <li><a href="#"
+            title = "link main page"><h1>FindThePrecious.com</h1></a></li>
+        <li><a href="#"
+            title = "Fellows section">Fellows</a></li>
         <li><a href="#">Contact us</a></li>
       </ul>
    </nav>
    
    
       <section>
-      <h2><a href="https://via.placeholder.com"><img src="https://via.placeholder.com/140" alt="Image"></a></h2>
+      <h2><a href="https://via.placeholder.com"
+            title = "Placeholder link"><img src="https://via.placeholder.com/140" alt="Image"></a></h2>
       </section>
       <section>
       <h2>Dead or alive </h2>
       
       <div>
-         <a href="https://via.placeholder.com"><img src="https://via.placeholder.com/20" alt="Image"></a>
+         <a href="https://via.placeholder.com"
+            title = "Another placeholder link">><img src="https://via.placeholder.com/20" alt="Image"></a>
          <h3>Lorem ipsum </h3>
          <p>Lorem ipsum</p>
       </div>
       <div>
-         <a href="https://via.placeholder.com"><img src="https://via.placeholder.com/20" alt="Image"></a>
+         <a href="https://via.placeholder.com"
+            title = "Placeholder link...again">><img src="https://via.placeholder.com/20" alt="Image"></a>
          <h3>Lorem ipsum </h3>
          <p>Lorem ipsum</p>
       </div>
       <div>
-         <a href="https://via.placeholder.com"><img src="https://via.placeholder.com/20" alt="Image"></a>
+         <a href="https://via.placeholder.com"
+            title = "Did i need to spell it ?">><img src="https://via.placeholder.com/20" alt="Image"></a>
          <h3>Lorem ipsum </h3>
          <p>Lorem ipsum</p>
       </div>
@@ -42,12 +46,15 @@
       <section>
          <h2> contact us</h2>
          <form>
-            
+            <label for="email">Email:
             <input id="email" placeholder="Email" type="text" required />
+            </label>
                   <br/>
+            <label for="adresse">Adresse:
             <input id="adresse" placeholder="Adresse" type="text" required />
+            </label>
                   <br/>
-            <select name="my_html_select_box">
+            <select name="BoxDeChoix">
 
             <option>Lorem ipsum dolor sit amet </option>
             <option>Lorem ipsum dolor sit amet</option>
@@ -55,7 +62,9 @@
 
             </select>
             <br/>
+            <label for="message">Message :
             <textarea id="message" placeholder="Message" required ></textarea>
+            </label>
                   <br/>
             <input type="submit" value="Send !" class="submit" />
     
@@ -63,7 +72,11 @@
       </section>
          <hr/>
    <footer>
-      Lorem ipsum dolor sit amet
+     <ul>
+       <li>Lorem ipsum dolor sit amet</li>
+       <li>Lorem ipsum dolor sit amet</li>
+       <li>Lorem ipsum dolor sit amet</li>
+     </ul>
    </footer>
       
       
